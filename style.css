@@ -1,0 +1,51 @@
+main{
+    border: 2px solid;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    border: 1px solid;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:pink ;
+}
+img{
+    width: 100%;
+    margin: auto;
+    
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    border: white;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+nav ul li:hover{
+    background-color: blueviolet;
+    color: purple;
+}
+ul li {
+    background-color: pink;
+}
+h1{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.termek{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border: 1px solid white;
+padding: 0px;
+
+
+}
+.kosar3{
+
+
+}
